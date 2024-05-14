@@ -1,0 +1,120 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+      "title": "API de Projetos Rouanet",
+      "description": "Esta é uma API para acessar informações sobre projetos da Rouanet.",
+      "version": "1.0.0"
+    },
+    "servers": [
+      {
+        "url": "http://localhost:8000/api",
+        "description": "Servidor de Desenvolvimento"
+      }
+    ],
+    "paths": {
+      "/projetos": {
+        "get": {
+          "summary": "Lista todos os projetos",
+          "description": "Retorna uma lista de todos os projetos disponíveis.",
+          "responses": {
+            "200": {
+              "description": "Uma lista de projetos",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/Projeto"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "components": {
+      "schemas": {
+        "Projeto": {
+          "type": "object",
+          "required": ["id_projeto", "nome", "area"],
+          "properties": {
+            "id_projeto": {
+              "type": "integer",
+              "format": "int64"
+            },
+            "pronac": {
+              "type": "string"
+            },
+            "ano_projeto": {
+              "type": "string"
+            },
+            "nome": {
+              "type": "string"
+            },
+            "segmento": {
+              "type": "string"
+            },
+            "area": {
+              "type": "string"
+            },
+            "uf": {
+              "type": "string"
+            },
+            "municipio": {
+              "type": "string"
+            },
+            "data_inicio": {
+              "type": "string"
+            },
+            "data_termino": {
+              "type": "string"
+            },
+            "situacao": {
+              "type": "string"
+            },
+            "mecanismo": {
+              "type": "string"
+            },
+            "enquadramento": {
+              "type": "string"
+            },
+            "valor_captado": {
+              "type": "string"
+            },
+            "valor_aprovado": {
+              "type": "string"
+            },
+            "acessibilidade": {
+              "type": "string"
+            },
+            "objetivos": {
+              "type": "string"
+            },
+            "justificativa": {
+              "type": "string"
+            },
+            "etapa": {
+              "type": "string"
+            },
+            "ficha_tecnica": {
+              "type": "string"
+            },
+            "impacto_ambiental": {
+              "type": "string"
+            },
+            "especificacao_tecnica": {
+              "type": "string"
+            },
+            "providencia": {
+              "type": "string"
+            },
+            "democratizacao": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
