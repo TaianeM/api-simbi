@@ -1,0 +1,92 @@
+.project-card {
+  width: 20rem;
+  margin: 10px;
+  min-height: 380px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out; 
+}
+
+.project-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.custom-badge {
+    background-color: rgb(255, 243, 221) !important;
+    color: rgb(202, 160, 84) !important;
+}
+
+.resume {
+  text-align: justify;
+  margin-bottom: 1rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.financial {
+  margin-top: 2px;
+}
+
+.button-add {
+  margin-top: 1rem;
+  background-color: rgb(250, 251, 253) !important;
+  color: rgb(192, 198, 205) !important;
+  border: none;
+}
+
+.icon-heart {
+  font-size: 1.5rem;
+  color: red;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.page-link {
+  width: 10px;
+  height: 10px;
+  margin: 0 3px;
+  border: none;
+  background-color: rgb(233, 236, 239);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 2rem;
+}
+
+.page-link:hover {
+  background-color: #bbb;
+}
+
+.page-link.active {
+  background-color: #007bff;
+}
+
+button {
+  border: 1px solid #ccc;
+  color: #666;
+  background-color: #f8f9fa;
+}
+
+button:hover {
+  border-color: #aaa;
+  color: #333;
+}
+
+.title-projects {
+  color: rgb(30, 132, 142) !important;
+}
+
+.button-view-all {
+  font-size: 14px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  color: rgb(30, 132, 142) !important;
+}
+
+.button-view-all:hover {
+  border-color: #aaa;
+  color: #333;
+}

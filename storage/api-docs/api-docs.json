@@ -12,7 +12,7 @@
       }
     ],
     "paths": {
-      "/projetos": {
+      "/api/projetos": {
         "get": {
           "summary": "Lista todos os projetos",
           "description": "Retorna uma lista de todos os projetos disponíveis.",
