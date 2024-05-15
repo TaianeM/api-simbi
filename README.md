@@ -1,6 +1,6 @@
 # Teste Simbi
 
-- Trata-se de o desenvolvimento de uma API de listagem de Projetos e o consumo da mesma em uma aplicação REACT.
+- Trata-se do desenvolvimento de uma API de listagem de Projetos e o consumo da mesma em uma aplicação REACT.
 
 # Instruções para rodar o projeto <a name="instrucoes"></a>
 
