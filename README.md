@@ -9,7 +9,6 @@
 ```
 Git
 PHP
-Bootstrap
 Node v6.0.0^
 ```
 
@@ -18,12 +17,6 @@ Node v6.0.0^
 ```
 git clone https://github.com/TaianeM/api-simbi
 ```
-
-
-
-
-
-
 
 - Para o projeto funcionar na sua máquina, será necessário instalar suas dependências, para isso, utilize os seguintes comandos:
 
@@ -40,8 +33,6 @@ composer up
 copy .env.example .env 
 php artisan key:generate
 ```
-
-
 
 - Pronto, agora o projeto está pronto para ser rodado localmente, utilizando o comando **php artisan serve** para subir o **backend** e para rodar o front é o comando **npm run dev**:
 **OBS: Necessário abrir 2 terminais, um para cada comando**
@@ -60,21 +51,27 @@ Para realizar a estilização, foi utilizado a biblioteca [**React-Bootstrap**](
 <h3>  * Tela Inicial </h3>
 <h2> ** url: http://127.0.0.1:8000/ **
 
- ![Cards de Projetos](https://user-images.githubusercontent.com/66003232/169416747-91dc9be5-60c5-48fc-a00a-746fb7bec237.png)
+ ![Cards de Projetos](![image](https://github.com/TaianeM/api-simbi/assets/66003232/4bcab2e4-650c-4539-80df-636d38ea7aa9)
+)
  
 <h3> * Tela Inicial + Botão Ver Todos. </h3>
  
-![Card de Projetos + Ver Todos](https://user-images.githubusercontent.com/66003232/169417600-22db0908-de3a-43e1-b99e-f5860a8faf8a.png)
+![Card de Projetos + Ver Todos](![image](https://github.com/TaianeM/api-simbi/assets/66003232/bd716dc7-9128-483d-be5e-e0b725c412e3)
+![image](https://github.com/TaianeM/api-simbi/assets/66003232/1c3f8f85-f45f-4c8e-9890-20f4555a5941)
+)
 
 <h3> * Documentação Swagger. </h3>
 <h2> url: http://127.0.0.1:8000/api/documentation
 
-![Swagger - Laravel](https://user-images.githubusercontent.com/66003232/169417703-ef7186cc-de96-4c1d-a63a-a86d34863460.png)
+![Swagger - Laravel](![image](https://github.com/TaianeM/api-simbi/assets/66003232/a1ab66e3-b0ff-4dfc-a3f0-263fa7e9ff84)
+![image](https://github.com/TaianeM/api-simbi/assets/66003232/48166eb6-6dd5-44e4-bc67-20c4078bcfd6)
+)
 
 <h3> * API - Listagem Projetos.
 <h2> url: http://127.0.0.1:8000/api/projetos
 
-![API - Listagem PHP](https://user-images.githubusercontent.com/66003232/169418734-b81fabba-c55c-4f1a-9d7d-22dcc3a49bcc.png)
+![API - Listagem PHP](![image](https://github.com/TaianeM/api-simbi/assets/66003232/55c01bf5-d6b3-4ff2-a6c3-35beec2302c4)
+)
 
 
 
