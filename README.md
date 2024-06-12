@@ -1,4 +1,4 @@
-# Teste Simbi
+# Api com Laravel e React.
 
 - Trata-se do desenvolvimento de uma API de listagem de Projetos e o consumo da mesma em uma aplicação REACT.
 
